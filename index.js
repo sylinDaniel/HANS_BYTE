@@ -35,15 +35,15 @@ const prefix = config.PREFIX;
 })();
 
 
-const ownerNumber = config.OWNER_NUM;
+const ownerNumber = config.50946512803"
 
 //===================SESSION-AUTH============================
 async function downloadSessionIfNeeded() {
   const sessionPath = __dirname + "/sessions/creds.json";
 
   if (!fs.existsSync(sessionPath)) {
-    if (!config.SESSION_ID) {
-      console.log("❌ Please add your session to SESSION_ID env !!");
+    if (!config.HANS-BYTE~Yr1hiCjY#tjDmHZeUs9pdeaYsm3x7txr0fqZLjgNG4_4fWu_Nzw0) {
+      console.log("HANS-BYTE~Yr1hiCjY#tjDmHZeUs9pdeaYsm3x7txr0fqZLjgNG4_4fWu_Nzw0 !!");
       process.exit(1);
     }
 
@@ -63,7 +63,7 @@ async function downloadSessionIfNeeded() {
       await fs.promises.writeFile(sessionPath, data);
       console.log("✅ Session downloaded and saved.");
     } catch (err) {
-      console.error("❌ Failed to download session:", err);
+      console.error("HANS-BYTE~Yr1hiCjY#tjDmHZeUs9pdeaYsm3x7txr0fqZLjgNG4_4fWu_Nzw0");
       process.exit(1);
     }
   } else {
@@ -86,7 +86,7 @@ async function connectToWA() {
 
 console.log("Connecting HANS BYTE");
 
-const { state, saveCreds } = await useMultiFileAuthState(__dirname + "/sessions/");
+const { state, saveCreds } = await useMultiFileAuthState(__dirname + "/HANS-BYTE~Yr1hiCjY#tjDmHZeUs9pdeaYsm3x7txr0fqZLjgNG4_4fWu_Nzw0/");
 const { version } = await fetchLatestBaileysVersion();
 
 const robin = makeWASocket({
@@ -120,7 +120,7 @@ const robin = makeWASocket({
 
       let up = `
   ╔═════════════════╗
-  ║      𝐇𝐀𝐍𝐒 𝐁𝐘𝐓𝐄 X 𝐁𝐎𝐓           
+  ║      CHADOW_BOT           
   ║  SUCCESSFULLY CONNECTED ✅ 😍        
   ╠═════════════════╣
   ║      • PREFIX: [ *${config.PREFIX}* ]            
@@ -131,12 +131,12 @@ const robin = makeWASocket({
   ║ ♻ 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐆𝐑𝐎𝐔𝐏 𝐋𝐈𝐍𝐊          
   ║ https://chat.whatsapp.com/K0GPSSfr16j8VsIAU8uHYM                 
   ╠═════════════════╣
-  ║   𝐇𝐀𝐍𝐒 𝐁𝐘𝐓𝐄 𝐌𝐃               
+  ║   SHADOW_BOT               
   ║ > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ Hans Tech Team        
   ╚═════════════════╝`;
       let up1 = `Hello Mr Hans i succesfully deployed HANS BYTE`;
 
-      robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
+      robin.sendMessage(50946512803 + "@s.whatsapp.net", {
         image: {
           url: `https://i.ibb.co/6Rxhg321/Chat-GPT-Image-Mar-30-2025-03-39-42-AM.png`,
         },
