@@ -1,0 +1,25 @@
+name: Deploy SHADOW Bot
+
+on:
+  push:
+    branches:
+      - main   # chak fwa ou pouse sou branch main, li ap kouri
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'   # oswa vèsyon bot ou bezwen
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run SHADOW Bot
+        run: node index.js
